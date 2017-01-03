@@ -1,0 +1,27 @@
+ \documentclass[12pt]{article}
+\usepackage{blindtext}
+\usepackage{hyperref}
+\usepackage{lineno}
+\linenumbers
+
+\renewcommand\thelinenumber{
+\href{http://www.github.com/seneubert/latex-lineno-smart}{\arabic{linenumber}}
+}
+
+\begin{document}
+
+%%%%##########################################################################
+
+\title{Test Document -- smart line numbers}
+\author{Sebastian Neubert}
+\date{}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%\begin{abstract}
+%\end{abstract}
+\blindtext
+
+
+\end{document}
